@@ -9,7 +9,7 @@
     android:background="@drawable/background"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
 
     <TextView
         android:id="@+id/text_label_today"
@@ -64,7 +64,7 @@
         android:layout_alignParentBottom="true"
         android:padding="20dp"
         android:background="@drawable/round_corner_button"
-        android:text="yes/not/not confirmed"
+        android:text="yes/no/not confirmed"
         android:textColor="@color/colorTextWhite"
         android:textSize="20sp" />
 
