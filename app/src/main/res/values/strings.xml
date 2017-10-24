@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Party</string>
+    <string name="today">Today:</string>
+    <string name="days_remaining_towards_the_end_of_the_year">Days remaining the end of the year:</string>
+    <string name="are_you_going_to_participate">Are you going to participate?</string>
+    <string name="not_confirmed">Not confirmed</string>
+    <string name="yes">yes</string>
+    <string name="not">not</string>
+    <string name="days">days</string>
 </resources>
