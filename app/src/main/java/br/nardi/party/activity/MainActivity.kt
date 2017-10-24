@@ -58,9 +58,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private fun getDaysLeftEndOfYear(): String {
         val calendar = Calendar.getInstance()
         val today = calendar.get(Calendar.DAY_OF_YEAR)
-
-        val calendarEndOfYear = Calendar.getInstance()
-        val december31 = calendarEndOfYear.getActualMaximum(Calendar.DAY_OF_YEAR)
+        val december31 = calendar.getActualMaximum(Calendar.DAY_OF_YEAR)
         return (december31 - today).toString()
     }
 
